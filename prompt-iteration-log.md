@@ -12,7 +12,7 @@ Prompt
 
 Create a REST API for user management using Spring Boot.
 
-Output Summary
+Output (Excerpt)
 
 Generated a basic CRUD API with minimal explanation.
 
@@ -166,25 +166,35 @@ Breaking the task into steps improved completeness and quality.
 
 # Cross-model Comparison
 
-Claude
+## Claude
 
-- Better explanations.
-- Better architecture suggestions.
-- More educational.
+- Provided stronger architectural guidance with a focus on production-ready backend development.
+- Explained why practices like Docker, CI/CD, monitoring, and Flyway are important.
+- Focused more on software design decisions and maintainability.
+- More educational and mentor-like.
 
-ChatGPT
+## ChatGPT
 
-- Faster.
-- More direct.
-- Better formatted code.
+- Produced a more structured implementation.
+- Included complete examples for Entity, DTO, Repository, Service, Controller, Exception Handling, and Configuration.
+- Easier to follow when starting implementation.
+- Better for generating boilerplate code.
 
-Failure Points
+## Failure Points
 
-Claude sometimes generated overly detailed explanations.
+### Claude
 
-ChatGPT occasionally skipped architectural reasoning.
+- More verbose.
+- Focused heavily on architecture before implementation.
 
----
+### ChatGPT
+
+- Some architectural explanations were shorter.
+- Less discussion about production reasoning.
+
+## Conclusion
+
+Claude was stronger for planning and architectural thinking, while ChatGPT was stronger for implementation and code generation. Using Claude for design and ChatGPT for coding provides the best workflow.
 
 # Final Prompt Template
 
